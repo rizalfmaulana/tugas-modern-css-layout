@@ -1,0 +1,38 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  background: #111;
+  color: #fff;
+}
+
+.col {
+  background: #333;
+}
+
+.controls {
+  grid-row: 1 / -1;
+}
+
+.tweet {
+  padding: 10px;
+  border-bottom: solid 1px #444;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-column-gap: 7px;
+  height: 100vh;
+  grid-auto-flow: column;
+  grid-template: 52px auto / 50px;
+  grid-auto-columns: 270px;
+}

@@ -1,0 +1,15 @@
+.container {
+  display: -ms-grid;
+  display: grid;
+  grid: 100px 100px / 100px auto 200px 100px;
+  gap: 10px;
+  grid-auto-flow: dense;
+}
+
+.container > div {
+  background: #373142;
+  color: #fff;
+  text-align: center;
+  line-height: 100px;
+}
+/*# sourceMappingURL=style.css.map */
